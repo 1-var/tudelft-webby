@@ -14,6 +14,10 @@ body {
   flex-direction: column;
 }
 
+.main-wrapper {
+  margin-top: 50px;
+}
+
 .page-content {
   position: relative;
   background-color: #f78fb3;
@@ -92,6 +96,10 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #c44569;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 li {
