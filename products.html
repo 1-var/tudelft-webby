@@ -23,6 +23,25 @@
     </ul>
     <div class="main-wrapper">
       <h1 class="products-title">Browse Products</h1>
+      <form class="filter-form" action="/products">
+        <label for="category">Category:</label>
+        <select name="category" id="category">
+          <option value="None">None</option>
+          <option value="Beauty">Beauty</option>
+          <option value="Electronics">Electronics</option>
+          <option value="Furniture">Furniture</option>
+          <option value="Clothing">Clothing</option>
+        </select>
+        <label for="supplier">Supplier:</label>
+        <select name="supplier" id="supplier">
+          <option value="None">None</option>
+          <option value="Abc">Abc</option>
+          <option value="AH">AH</option>
+          <option value="BK">BK</option>
+          <option value="NK">NK</option>
+        </select>
+        <input type="submit" value="Apply" />
+      </form>
       <div class="products-list">
         <div class="products-wrapper">
           <div class="card">

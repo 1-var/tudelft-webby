@@ -1,143 +1,144 @@
 .order-summary {
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 900px;
-    margin-top: 25px;
-    display: flex;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 900px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  display: flex;
 }
 
 .cart-items {
-    position: relative;
-    background-color: #f78fb3;
-    box-shadow: 0px 0px 18px #f78fb3;
-    color: #303952;
+  position: relative;
+  background-color: #f78fb3;
+  box-shadow: 0px 0px 18px #f78fb3;
+  color: #303952;
 
-    width: 650px;
-    float: left;
-    border-radius: 25px;
-    margin-right: 50px;
+  width: 650px;
+  float: left;
+  border-radius: 25px;
+  margin-right: 50px;
 }
 
 .items-main-header {
-    font-weight: 600;
-    margin-left: 20px;
-    margin-top: 10px;
-    color: #303952;
-    display: inline-block;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #303952;
+  display: inline-block;
 }
 
 .items-wrapper {
-    display: flex;
-    flex-direction: column;
-    height: 90%;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
 }
 
 .item {
-    max-height: 150px;
-    width: 550px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  max-height: 150px;
+  width: 550px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
-    background-color: #f78fb3;
-    padding: 10px;
-    border: 2px solid #cf6a87;
-    border-radius: 10px;
-    box-shadow: 0px 0px 18px #f78fb3;
-  }
-  
-  .item h1 {
-    font-size: 24px;
-    margin-left: 150px;
-  }
+  background-color: #f78fb3;
+  padding: 10px;
+  border: 2px solid #cf6a87;
+  border-radius: 10px;
+  box-shadow: 0px 0px 18px #f78fb3;
+}
 
-  .item p {
-    padding-left: 150px;
-  }
-  
-  .item img {
-    border-radius: 10px;
-    height: 100px;
-    float: left;
-  }
-  
-  .price {
-    color: #303952;
-    font-size: 22px;
-    padding-left: 150px;
-  }
-  
-  .item button {
-    border: none;
-    border-radius: 10px;
-    outline: 0;
-    padding: 12px;
-    margin: auto;
-    margin-top: 5px;
-    color: #303952;
-    background-color: #cf6a87;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
+.item h1 {
+  font-size: 24px;
+  margin-left: 150px;
+}
+
+.item p {
+  padding-left: 150px;
+}
+
+.item img {
+  border-radius: 10px;
+  height: 100px;
+  float: left;
+}
+
+.price {
+  color: #303952;
+  font-size: 22px;
+  padding-left: 150px;
+}
+
+.item button {
+  border: none;
+  border-radius: 10px;
+  outline: 0;
+  padding: 12px;
+  margin: auto;
+  margin-top: 5px;
+  color: #303952;
+  background-color: #cf6a87;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
 }
 
 .item button:hover {
-    background-color: #303952;
-    color: #cf6a87;
+  background-color: #303952;
+  color: #cf6a87;
 }
 
 .cart-total {
-    position: fixed;
-    background-color: #f78fb3;
-    box-shadow: 0px 0px 18px #f78fb3;
-    width: 200px;
-    float: left;
-    border-radius: 25px;
-    display: flex;
-    margin-left: 690px;
-    flex-direction: column;
-}  
+  position: fixed;
+  background-color: #f78fb3;
+  box-shadow: 0px 0px 18px #f78fb3;
+  width: 200px;
+  float: left;
+  border-radius: 25px;
+  display: flex;
+  margin-left: 690px;
+  flex-direction: column;
+}
 
 .cart-total h1 {
-    font-weight: 600;
-    font-size: larger;
-    margin-left: 20px;
-    margin-top: 10px;
-    color: #303952;
+  font-weight: 600;
+  font-size: larger;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #303952;
 }
 
 .cart-total p {
-    margin-left: 20px;
-    margin-top: 5px;
-    color: #303952;
+  margin-left: 20px;
+  margin-top: 5px;
+  color: #303952;
 }
 
 .cart-total button {
-    border: none;
-    border-radius: 10px;
-    outline: 0;
-    padding: 8px;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    color: #303952;
-    background-color: #cf6a87;
-    text-align: center;
-    cursor: pointer;
-    width: 80%;
-    font-size: 14px;
-    font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  outline: 0;
+  padding: 8px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #303952;
+  background-color: #cf6a87;
+  text-align: center;
+  cursor: pointer;
+  width: 80%;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .cart-total button:hover {
-    background-color: #303952;
-    color: #cf6a87;
+  background-color: #303952;
+  color: #cf6a87;
 }
 
 hr {
-    border-style: solid;
-    margin-top: 10px;
-    color: #cf6a87;
+  border-style: solid;
+  margin-top: 10px;
+  color: #cf6a87;
 }

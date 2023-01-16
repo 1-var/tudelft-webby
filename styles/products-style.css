@@ -25,3 +25,8 @@
   justify-content: space-between;
   gap: 20px;
 }
+
+.filter-form {
+  color: white;
+  margin-left: 100px;
+}
