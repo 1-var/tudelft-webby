@@ -195,3 +195,7 @@ footer {
   color: white;
   margin-top: auto;
 }
+
+.desc {
+  font-size: larger;
+}
