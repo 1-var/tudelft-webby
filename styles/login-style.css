@@ -6,6 +6,7 @@
   margin-left: auto;
   width: fit-content;
   margin-top: 25px;
+  margin-bottom: 40px;
   border-radius: 25px;
   display: flex;
   align-items: center;
@@ -24,6 +25,7 @@ legend {
 fieldset {
   border-radius: 10px;
   border-style: solid;
+  border-color: #cf6a87;
 }
 
 .login-input {
@@ -43,8 +45,8 @@ fieldset {
   border: none;
   border-radius: 10px;
   outline: 0;
-  color: black;
-  background-color: white;
+  color: #303952;
+  background-color: #cf6a87;
   text-align: center;
   cursor: pointer;
   font-size: 18px;
