@@ -1,0 +1,26 @@
+.drop-downs {
+  margin-left: 10px;
+}
+
+.drop-downs label {
+  margin-right: 6px;
+}
+
+p {
+  margin-left: 5px;
+}
+
+textarea {
+  outline: 0;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  width: 250px;
+  font-family: inherit;
+  font-size: 50;
+  padding: 5px;
+}
+
+label[for='img'] {
+  margin: 10px;
+}

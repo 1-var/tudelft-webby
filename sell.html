@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Anazom e-Store</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/login-style.css" />
+    <link rel="stylesheet" href="styles/sell-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <ul>
+      <li><a class="active heading" href="index.html">Anazom.net</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li style="float: right"><a href="login.html">Sign in</a></li>
+      <li style="float: right"><a href="cart.html">Cart</a></li>
+    </ul>
+    <div class="main-wrapper">
+      <div class="login-wrapper">
+        <form class="login-form" action="products.html">
+          <fieldset>
+            <legend>Sell a Product</legend>
+            <input
+              class="login-input"
+              type="text"
+              placeholder="Product Title"
+              name="title"
+            />
+            <br />
+            <input
+              type="number"
+              class="login-input"
+              name="price"
+              placeholder="Price"
+              min="0.00"
+              max="10000.00"
+              step="0.01"
+            />
+            <br />
+            <input
+              type="number"
+              class="login-input"
+              name="quantity"
+              placeholder="Quantity"
+              min="0"
+              max="10000"
+              step="1"
+            />
+            <br />
+            <div class="drop-downs">
+              <label for="category">Category:</label>
+              <select name="category" id="category">
+                <option value="None">None</option>
+                <option value="Beauty">Beauty</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Furniture">Furniture</option>
+                <option value="Clothing">Clothing</option>
+              </select>
+            </div>
+            <br />
+            <textarea
+              name="description"
+              cols="40"
+              rows="5"
+              placeholder="Enter a description..."
+            ></textarea>
+            <br />
+            <label for="img">Select image:</label>
+            <input
+              type="file"
+              id="img"
+              class="image-input"
+              name="img"
+              accept="image/*"
+            />
+            <br />
+            <input
+              type="submit"
+              class="register-button"
+              value="Upload Product"
+            />
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p>© 2022 Anazom USA, Inc. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
