@@ -32,6 +32,7 @@
           <option value="Furniture">Furniture</option>
           <option value="Clothing">Clothing</option>
         </select>
+
         <label for="supplier">Supplier:</label>
         <select name="supplier" id="supplier">
           <option value="None">None</option>
@@ -40,6 +41,26 @@
           <option value="BK">BK</option>
           <option value="NK">NK</option>
         </select>
+
+        <label for="min-price">Min. Price:</label>
+        <input type="text" name="min-price" />
+
+        <label for="max-price">Max. Price:</label>
+        <input type="text" name="max-price" />
+
+        <label for="rating">Rating:</label>
+        <select name="rating" id="rating">
+          <option value="None">None</option>
+          <option value="5">5</option>
+          <option value="4">4+</option>
+          <option value="3">3+</option>
+          <option value="2">2+</option>
+          <option value="1">1+</option>
+        </select>
+
+        <label for="search">Search Term:</label>
+        <input type="text" name="search" />
+
         <input type="submit" value="Apply" />
       </form>
       <div class="products-list">
