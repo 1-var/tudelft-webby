@@ -35,6 +35,10 @@
               type="text"
               placeholder="Username"
               name="username"
+              required
+              minlength="5"
+              maxlength="12"
+              pattern="^[A-Z].*([0-9]|[$&+,:;=?@#|'<>.^*()%!-])$"
             />
             <br />
             <input
@@ -42,6 +46,9 @@
               type="password"
               placeholder="Password"
               name="password"
+              required
+              minlength="12"
+              pattern="^(?=.*[0-9])(?=.*[$&+,:;=?@#|'<>.^*()%!-])[a-zA-Z0-9$&+,:;=?@#|'<>.^*()%!-]{12,}$"
             />
             <br />
             <input
@@ -49,6 +56,9 @@
               type="password"
               placeholder="Confirm Password"
               name="password-retype"
+              required
+              minlength="12"
+              pattern="^(?=.*[0-9])(?=.*[$&+,:;=?@#|'<>.^*()%!-])[a-zA-Z0-9$&+,:;=?@#|'<>.^*()%!-]{12,}$"
             />
             <br />
             <p>Shipping Information</p>
@@ -71,6 +81,8 @@
               type="text"
               placeholder="Zipcode"
               name="zipcode"
+              required
+              pattern="[0-9]{4}[a-zA-Z]{2}$"
             />
             <br />
             <p>Personal Information</p>
@@ -79,6 +91,8 @@
               type="text"
               placeholder="First Name"
               name="first-name"
+              required
+              pattern="^([A-Z]|[a-z]).*$"
             />
             <br />
             <input
@@ -86,6 +100,8 @@
               type="text"
               placeholder="Last Name"
               name="last-name"
+              required
+              pattern="^([A-Z]|[a-z]).*$"
             />
             <br />
             <input
@@ -93,20 +109,20 @@
               type="text"
               placeholder="E-mail"
               name="email"
+              required
+              pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$"
             />
             <br />
             <div class="drop-downs">
               <label for="gender">Gender:</label>
-              <select name="gender" id="gender">
-                <option value="select">Select</option>
+              <select name="gender" id="gender" required>
                 <option value="female">Female</option>
                 <option value="male">Male</option>
                 <option value="other">Other</option>
               </select>
               <br />
               <label for="language">Language:</label>
-              <select name="language" id="language">
-                <option value="select">Select</option>
+              <select name="language" id="language" required>
                 <option value="english">English</option>
                 <option value="dutch">Nederlands</option>
                 <option value="german">Deutsch</option>
